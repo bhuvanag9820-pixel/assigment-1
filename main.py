@@ -418,7 +418,7 @@ def crypto_analysis(conn):
     with col2:
         end_date = st.date_input(
             "End Date",
-            value=date(2025, 1, 31),
+            value=date(2025, 12, 31),
             key="crypto_end_date"
         )
 
